@@ -8,14 +8,10 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: #333333">
-      <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
-        color="#BBAA33" 
-        shadow>
-      </a-box>
+    <a-scene background="color: #FF007F">
+      <a-box id="myBox" width="2" height="4" depth="5" color="#3766D5" position="0 0 0" rotation="2 5 10" shadow></a-box>
+     <a-ring id="myRing" width="4" height="200" depth="4" radius-inner="8" radius-outer="10" color="#00ff38" shadow></a-ring>
+     <a-torus-knot color="#e2d2f0" arc="120" p="2" q="7" radius="3" radius-tubular="0.6"></a-torus-knot>
     </a-scene>
   </body>
 </html>
